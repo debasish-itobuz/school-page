@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
+import About from './components/About';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route exact path = '/' element={<Menu />}></Route>
-        {/* <Route exact path = '/AboutUs' element={<About-us />}></Route> */}
+        <Route exact path = '/About' element={<About/>}></Route>
       </Routes>
       </BrowserRouter>
         

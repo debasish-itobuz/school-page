@@ -12,8 +12,15 @@
     padding: 8px;
 }
 
-.icon {
-    width:5%;
+.image-div{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.image-div img{
+    height: 100%;
 }
 
 .navTop, ul {
@@ -23,10 +30,6 @@
     list-style-type: none;
     width:60%;
     color: white;
- }
-
- .navTop ul li {
-    /* padding-left: 5px; */
  }
 
  .menuBtn {
@@ -41,6 +44,32 @@
     color: #fff;
     border: 0;
     border-radius: 5px;
+}
+
+.menuHero {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.heroRight {
+    display: flex;
+    gap: 15px;
+}
+
+.heroDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.image-div-hero img{
+    height: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .menu {
