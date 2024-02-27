@@ -5,9 +5,10 @@ const About = () =>{
     return(
         <>
             <Menu />
-            <h1>
-                From about Page
-            </h1>
+            <div className="aboutSection">
+                <div className="overlay"></div>
+                <p> About</p>
+            </div>
         </>
     )
 }

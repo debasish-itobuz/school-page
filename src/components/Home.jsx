@@ -86,7 +86,7 @@ const Home = () => {
       </div>
 
       <div className="userSection">
-      <div className="userDetails green">
+        <div className="userDetails green">
           <div className="userImg">
             <img src={founder} alt="" className="user" />
           </div>
@@ -108,7 +108,7 @@ const Home = () => {
             <img src={principal} alt="" className="user" />
           </div>
           <p className="userHeading">Chairman's Message</p>
-          <br/>
+          <br />
           <p>
             Agrasain Boys' School is a linguistic minority viz Marwari (Agarwal)
             institution run by agarwals within the meaning of Article 30 of the
@@ -127,7 +127,7 @@ const Home = () => {
             <img src={founder} alt="" className="user" />
           </div>
           <p className="userHeading"> Director's Message</p>
-          <br/>
+          <br />
           <p>
             Agrasain Boys' School is a linguistic minority viz Marwari (Agarwal)
             institution run by agarwals within the meaning of Article 30 of the
@@ -146,7 +146,7 @@ const Home = () => {
             <img src={principal} alt="" className="user" />
           </div>
           <p className="userHeading">Principal's Message</p>
-          <br/>
+          <br />
           <p>
             Agrasain Boys' School is a linguistic minority viz Marwari (Agarwal)
             institution run by agarwals within the meaning of Article 30 of the

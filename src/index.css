@@ -101,99 +101,118 @@ ul {
 }
 
 .updates {
-    background-color: #000F5E;
-    color: #fff;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+  background-color: #000f5e;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .updatesTag {
-    border-right: 2px solid white;
-    padding-right: 10px;
+  border-right: 2px solid white;
+  padding-right: 10px;
 }
 
 .updateBottom {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 
 .image-div-update img {
-    height: 60px;
-    display: flex;
-    align-items: center;
-  }
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
 
-  .click {
-    color: #FC9928;
-  }
+.click {
+  color: #fc9928;
+}
 
-  .process {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+.process {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  .user {
-    border-radius: 50%;
-    width: 60%;
-    
-  }
+.user {
+  border-radius: 50%;
+  width: 60%;
+}
 
-  .userImg {
+.userImg {
+  position: absolute;
+  top: -8%;
+  left: 30%;
+}
 
-    position: absolute;
-    top: -8%;
-    left: 30%;
-  }
+.userSection {
+  margin: 6% auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 
-  .userSection {
-    margin: 6% auto;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    
-  }
+.userDetails {
+  width: 18%;
+  line-height: 28px;
+  padding: 10px;
+  text-align: start;
+  position: relative;
+}
 
-  .userDetails {
-    width:18%;
-    line-height: 28px;
-    padding: 10px;
-    text-align: start;
-    position: relative;
-  }
+.green {
+  background-color: #9eb23b;
+}
 
-  .green {
-    background-color: #9EB23B;
-  }
+.yellow {
+  background-color: #ffcb42;
+}
 
-  .yellow {
-    background-color: #FFCB42;
-  }
+.peach {
+  background-color: #f37878;
+}
 
-  .peach {
-    background-color: #F37878;
-  }
+.blue {
+  background-color: #21e1e1;
+}
 
-  .blue {
-    background-color: #21E1E1;
-  }
+.userHeading {
+  padding: 60px 20px 40px;
+  font-size: 20px;
+}
 
-  .userHeading {
-    padding: 60px 20px 40px;
-    font-size: 20px;
-  }
+.readMore {
+  border-radius: 10px;
+  padding: 15px 35px;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  margin: 25px 50px;
+}
 
-  .readMore {
-    border-radius: 10px;
-    padding: 15px 35px;
-    background-color: #fff;
-    color: black;
-    font-weight: bold;
-    border: 0;
-    margin: 25px 50px;
-  }
+.aboutSection {
+  background: url("./asset/about/school.jpeg") no-repeat;
+  height: 30vh;
+  background-size: cover;
+  position: relative;
+}
+.aboutSection .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #0008;
+}
+
+.aboutSection > p {
+  color: #fc9928;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  left: 4%;
+}
