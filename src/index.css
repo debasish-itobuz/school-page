@@ -136,3 +136,64 @@ ul {
     flex-direction: column;
     gap: 10px;
   }
+
+  .user {
+    border-radius: 50%;
+    width: 60%;
+    
+  }
+
+  .userImg {
+
+    position: absolute;
+    top: -8%;
+    left: 30%;
+  }
+
+  .userSection {
+    margin: 6% auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+
+  .userDetails {
+    width:18%;
+    line-height: 28px;
+    padding: 10px;
+    text-align: start;
+    position: relative;
+  }
+
+  .green {
+    background-color: #9EB23B;
+  }
+
+  .yellow {
+    background-color: #FFCB42;
+  }
+
+  .peach {
+    background-color: #F37878;
+  }
+
+  .blue {
+    background-color: #21E1E1;
+  }
+
+  .userHeading {
+    padding: 60px 20px 40px;
+    font-size: 20px;
+  }
+
+  .readMore {
+    border-radius: 10px;
+    padding: 15px 35px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 0;
+    margin: 25px 50px;
+  }
