@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
+import Footer from "./Footer";
 import slider from "../asset/navbar/slider.webp";
 import admission from "../asset/update/admission.png";
 import career from "../asset/update/career.png";
@@ -161,6 +162,8 @@ const Home = () => {
         </div>
 
       </div>
+
+      <Footer/>
     </>
   );
 };
